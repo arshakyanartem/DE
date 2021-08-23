@@ -46,6 +46,7 @@ contactBtn.addEventListener('click', showModal);
 popup.addEventListener('click', (ev) => {
 	if (ev.target == popup) {
 		popup.classList.remove('show');
+		body.classList.remove('lock');
 	}
 })
 
